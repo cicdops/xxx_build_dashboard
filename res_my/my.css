@@ -1,0 +1,63 @@
+html,body{height:100%;min-height:100%;}
+.title{
+  top:20px;
+  left:120px;
+  position:absolute;
+}
+.support{
+  width:40%;
+  top:20px;
+  right:0px;
+  position:absolute;
+}
+.left{
+    width:220px;
+    height:100%;
+    postion:relative;
+    top:0;
+    left:0;
+    float:left;
+    padding:0;
+}
+.right{
+    postion:relative;
+    top:0;
+    left:0;
+    padding:0;
+    overflow:hidden;
+}
+
+body { margin: 0 }
+.myrow, .mycol { overflow: hidden; position: absolute; }
+.myrow { left: 0; right: 0; }
+.mycol { top: 0; bottom: 0; }
+.scroll-x { overflow-x: auto; }
+.scroll-y { overflow-y: auto; }
+
+.header.myrow { height: 80px; top: 0; }
+.body.myrow { top: 80px; bottom: 21px; }
+.footer.myrow { height: 20px; bottom: 0; }
+
+.metrouicss .bg-color-mybg {
+  background-color: #00ced1 !important;
+}
+.metrouicss a,
+.metrouicss .link {
+  color: #9900ff;
+}
+.metrouicss a:hover,
+.metrouicss .link:hover {
+  color: rgba(45, 173, 237, 0.8);
+}
+.metrouicss a:active,
+.metrouicss .link:active {
+  color: rgba(45, 173, 237, 0.6);
+}
+
+.metrouicss .accordion > li > a {
+  font-size:13pt;
+}
+.metrouicss .accordion > li > div>ul>li a {
+  font-size:13pt;
+}
+  

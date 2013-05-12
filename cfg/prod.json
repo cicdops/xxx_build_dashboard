@@ -1,0 +1,34 @@
+{
+   "prod":"XXX Build Dashboard",
+   "integ":"integrators",
+   "new_request_link":"new request link",
+   "default_page":"http://www.baidu.com",
+   "branches":[
+      {
+         "name":"Branch 001",
+         "links":[
+            {"name":"nightly","ref":"cfg/flow/nightly.json"},
+            {"name":"weekly","ref":"cfg/flow/weekly.json"},
+            {"name":"purify","ref":"cfg/flow/purify.json"},
+            {"name":"purecov","ref":"cfg/flow/purecov.json"},
+            {"name":"coverity","ref":"cfg/flow/coverity.json"}
+         ]
+      },
+      {
+         "name":"Branch 002",
+         "links":[
+            {"name":"test1","ref":"http://www.cnblogs.com"},
+            {"name":"test2","ref":"http://www.csdn.com"},
+            {"name":"test1","ref":"http://www.cnblogs.com"},
+            {"name":"test2","ref":"http://www.csdn.com"}
+         ]
+      },
+      {
+         "name":"other_links",
+         "links":[
+            {"name":"common1","ref":"http://www.baidu.com"},
+            {"name":"common2","ref":"http://www.baidu.com"}
+         ]
+      }
+   ]
+}
